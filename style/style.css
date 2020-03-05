@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+#myVideo {
+    position: fixed ;
+    right: 40;
+    left: 0;
+    bottom: 0;
+    min-width: 50%;
+    height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+
+  span {
+    background-image: linear-gradient(#c8ff00a1, #c8ff00a1);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+  }
+  span:hover {
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+  }
+
+  span {
+    transition: background-size .5s, background-position .3s ease-in .5s;
+  }
+  span:hover {
+    transition: background-position .5s, background-size .3s ease-in .5s;
+  }
