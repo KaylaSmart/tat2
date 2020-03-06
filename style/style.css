@@ -5,7 +5,9 @@ body{
     font-weight: 900;
     font-style: italic;
 }
-
+ .hey{
+  text-shadow: 2px 2px 14px #00000098;
+ }
 
 #myVideo {
     position: fixed ;
@@ -25,10 +27,22 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: white;
   }
+a{
+  color: white;
+}
+  a:link{
+    text-decoration: none;
+  }
 
+
+  a:hover{
+    text-decoration: none;
+    color:rgb(246, 112, 112);
+    text-shadow: none !important;
+  }
 
   span {
-    background-image: linear-gradient(#c8ff00a1, #c8ff00a1);
+    background-image: linear-gradient(#59c37cf3, #59c37cf3);
     background-repeat: no-repeat;
     background-position: 0% 100%;
     background-size: 100% 2px;
@@ -44,3 +58,85 @@ body{
   span:hover {
     transition: background-position .5s, background-size .3s ease-in .5s;
   }
+
+
+  /* .kenburns-top{-webkit-animation:kenburns-top 5s ease-out both;animation:kenburns-top 5s ease-out both} */
+
+  ul {
+ list-style-type: none;
+  }
+
+
+
+  .cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url() repeat top left; 
+}
+
+.cb-slideshow li span { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 10s linear  infinite; 
+  /* animation-iteration-count:infinite;  */
+}
+
+
+
+.cb-slideshow li:nth-child(1) span { 
+  background-image: url(/images/IMG_2630.jpg) 
+}
+.cb-slideshow li:nth-child(2) span { 
+  background-image: url(/images/IMG_2713.jpg);
+  animation-delay: 3s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+  background-image: url(/images/IMG_2737.jpg);
+  animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+  background-image: url(/images/IMG_2751.jpg);
+  animation-delay: 9s; 
+}
+/* .cb-slideshow li:nth-child(1) span { 
+  background-image: url(/images/IMG_2630.jpg) ;
+  animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(2) span { 
+  background-image: url(/images/IMG_2713.jpg) ;
+  animation-delay: 15s; 
+}
+.cb-slideshow li:nth-child(3) div { 
+  animation-delay: 18s; 
+  background-image: url(/images/IMG_2737.jpg) ;
+}
+
+.cb-slideshow li:nth-child(4) div { 
+  background-image: url(/images/IMG_2751.jpg);
+  animation-delay: 21s; 
+} */
+
+@keyframes imageAnimation { 
+  8% { opacity: 0; animation-timing-function: ease-in; }
+  8% { opacity: 1; animation-timing-function: ease-out; }
+  /* 17% { opacity: 1 } */
+  /* 25% { opacity: 0 } */
+  /* 100% { opacity: 0 } */
+}
