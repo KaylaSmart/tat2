@@ -1,12 +1,14 @@
 const express = require("express"),
     bodyParser = require("body-parser"),
-    path = require("path"),
-    nodemon = require("nodemon");
+    path = require("path");
+    const nodemon = require("nodemon");
+    const port = process.env.PORT || 5000;
 
 // Sets up the Express App
 // =============================================================
 const app = express();
-const PORT = 5000;
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 
 
@@ -21,7 +23,7 @@ app.use(bodyParser.json());
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
-  
+app.listen(port,() =>{
+    console.log('server started....')
+   });
+   
