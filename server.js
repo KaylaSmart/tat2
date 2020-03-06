@@ -7,13 +7,15 @@ const express = require("express"),
 // Sets up the Express App
 // =============================================================
 const app = express();
-app.use(express.static(path.join(__dirname, 'public')));
+
+
+app.use(express.static(path.join(__dirname, '/')));
 
 
 
 
 app.get("/", function(req, res) {
-    res.send("index.html");
+    res.sendFile(path.join(__dirname, "index.html"));
   });
 
 // Sets up the Express app to handle data parsing
