@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
 
+
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -9,15 +12,6 @@ body{
   text-shadow: 2px 2px 14px #00000098;
  }
 
-#myVideo {
-    position: fixed ;
-    right: 40;
-    left: 0;
-    bottom: 0;
-    min-width: 50%;
-    height: 100%;
-  }
-  
   /* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
