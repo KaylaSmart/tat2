@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
 
 
-
+@media only screen and (max-width:768px){
+  [class*="col"]{
+    width: 100%;
+  }
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -11,8 +15,16 @@ body{
  .hey{
   text-shadow: 2px 2px 14px #00000098;
  }
-
-  /* Add some content at the bottom of the video/page */
+.logo{
+  z-index: 900;
+}
+ 
+.logo img{
+  height: 200px;
+  width: 350px;
+  text-shadow: 2px 2px 14px #00000098;
+}
+/* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
     bottom: 0;
