@@ -11,7 +11,7 @@ const PORT = 5000;
 
 
 app.get("/", function(req, res) {
-    res.render(path.join(__dirname, "index.html"));
+    res.send("index.html");
   });
 
 // Sets up the Express app to handle data parsing
