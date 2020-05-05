@@ -8,10 +8,6 @@ const path = require('path');
 
 const indexRoutes = require("./routes/index");
 
-let ejs = require('ejs'),
-    views =['hometwo', 'about', 'contact'],    
-    html = ejs.render('<%= views.join(", "); %>', {views: views});
-
 const port = process.env.PORT || 5000;
 
 app.use(bodyParser.urlencoded({extended:true}));
