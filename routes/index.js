@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+const Contact = require('../models/contact');
 //index+
 router.get('/', function(req, res) {
     res.render('hometwo');
