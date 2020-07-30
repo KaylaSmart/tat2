@@ -62,20 +62,20 @@
             <form accept="mailto:crystyles@crystylesairbrushtattoos.com"  enctype="text/plain" method="GET">
                 <div class="form-row mb-2">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Name" id="name">
                     </div>
                     <div class="col">
                     <input type="text" class="form-control" placeholder="Phone">
                     </div>
                 </div>
                 <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
                 </div>
                 <div class="form-row  mt-2">
                     <div class="form-group mr-5">
-                        <label for="exampleFormControlSelect1">Type of Event</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <label for="event">Type of Event</label>
+                        <select class="form-control" id="event">
                         <option>Birthday Party</option>
                         <option>Bat/Bar Mitzvah</option>
                         <option>Company Event</option>
@@ -88,8 +88,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect2">How Many People Will Be There?</label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <label for="quantity">How Many People Will Be There?</label>
+                        <select multiple class="form-control" id="quantity">
                         <option>1-20</option>
                         <option>20-50</option>
                         <option>50-100</option>
@@ -107,8 +107,8 @@
                     </div>
                     <div class="col pt-4">
                         <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">Indoor</label>
+                        <input class="form-check-input" type="checkbox" id="indoor" value="option1">
+                        <label class="form-check-label" for="indoor">Indoor</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
@@ -134,8 +134,8 @@
                         <label for="exampleFormControlSelect2">Custom Tattoos?</label>
                         <div class="col">
                             <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                            <input class="form-check-input" type="checkbox" id="custom" value="option1">
+                            <label class="form-check-label" for="custom">Yes</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
@@ -145,15 +145,15 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect2">Best Way to Reach You? </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <select multiple class="form-control" id="reach">
                         <option>Phone</option>
                         <option>Email</option>
                         <option>Text</option>
                         </select>
                     </div>
                     <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comments</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="comments">Comments</label>
+                    <textarea class="form-control" id="comments" rows="3"></textarea>
                     </div>
                     <input type="submit" value="Send">
                     <input type="reset" value="Reset">
