@@ -12,7 +12,7 @@ exports.create = (req, res) => {
     }
 
     const form = {
-        name: req.body.name,
+        title: req.body.title,
         phone: req.body.phone,
         email: req.body.email,
         event: req.body.event,
