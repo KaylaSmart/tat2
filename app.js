@@ -6,13 +6,13 @@ const bodyParser= require('body-parser');
 const methodOverride = require('method-override');
 const logger = require('morgan');
 const path = require('path');
-
 const { Sequelize } = require("sequelize");
 
 
 const indexRoutes = require("./routes/index");
 
 const port = process.env.PORT || 5000;
+
 
 
 app.use(bodyParser.urlencoded({extended:true}));
