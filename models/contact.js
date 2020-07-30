@@ -1,8 +1,9 @@
+// const { DataTypes } = require("sequelize/types");
 
 
 module.exports = (sequelize, Sequelize) => {
     const Form = sequelize.define("form", {
-        name: {
+        title: {
             type: Sequelize.STRING
         },
         email:{
@@ -15,7 +16,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         date: {
-            type: Sequelize.date
+            type: Sequelize.DATE
         },
         custom : {
             type: Sequelize.BOOLEAN
@@ -27,7 +28,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         }
 
-    });
+    }, {sequelize});
     return Form;
 };
 
