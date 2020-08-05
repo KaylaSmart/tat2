@@ -6,7 +6,12 @@ const bodyParser= require('body-parser');
 const methodOverride = require('method-override');
 const logger = require('morgan');
 const path = require('path');
+
+//DB comnection
+
+require("./database/connection");
 const { Sequelize } = require("sequelize");
+
 
 
 const indexRoutes = require("./routes/index");
