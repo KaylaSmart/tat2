@@ -5,7 +5,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
 
-
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* -webkit-font-smoothing: antialased; */
+  -webkit-tap-highlight-color: rgba(0 , 0, 0, 0);
+}
 
 
 html {
@@ -13,11 +20,11 @@ html {
 
 }
 
-*,
+/* *,
 ::after,
 ::before {
     box-sizing: inherit;
-}
+} */
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -59,6 +66,12 @@ body,html {
 
 .navbar {
     transition: all 0.4s;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .navbar .nav-link {
@@ -138,6 +151,17 @@ h1{
     right: 74%;
     top: 0;
     
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify; 
+    justify-content: space-between;
+    /* height: calc(100vh-5rem); */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* padding: 0 3.125rem; */
 } 
 
 
@@ -279,6 +303,9 @@ h1{
     width: 250%;
     border-radius: 8%;
     box-shadow:  8px 0px 30px  .5px  #9b9999c5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 
   }
   
@@ -288,6 +315,9 @@ h1{
       margin-left: 25%;
       height:3rem;
       z-index: -20000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
   }
 
   .bird{
@@ -295,13 +325,18 @@ h1{
       border-radius: 5%;
       /* width:150%; */
       box-shadow:  0px 10px 80px  .8px  #9b999998;
-
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
   }
 
   .friends{
       margin-top: 8rem;
       background-color: rgba(238, 238, 238, 0.989);
       /* box-shadow:  0px 1px 200px .8px  #8888889c; */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
   }
 
   .friends h2{
@@ -346,6 +381,9 @@ h1{
      right:30%;
     position: absolute;
     margin-top: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .video-container .filter {
@@ -375,13 +413,14 @@ h1{
     line-height:3.5rem;
     letter-spacing: .1rem;
     text-align: justify;
+ 
 }
 
 .tattoo{
     background: url("/images/isaac.jpg") no-repeat center center fixed;
-    display: flex;
     background-position-x: right;
     font-family: "Poppins", sans-serif;
+
 
 }
 
@@ -485,19 +524,28 @@ h1{
   .blobb{
       height: 70%;
       width: 20%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
   }
 
 .card-img{
   height: 100px;
   width: 200px;
   size: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer{
   padding: 2.5rem;
   background-color:#1DA69D;
   color: white;
-  text-align: center 
+  text-align: center ;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer p:last-child{
@@ -741,7 +789,8 @@ li{
 
 .spon img {
   filter: grayscale(100%);
-  height: 100px;
+  height: 120px;
+  margin-right: 2rem;
 }
 
 .par{

@@ -9,8 +9,8 @@ const path = require('path');
 
 //DB comnection
 
-require("./database/connection");
-const { Sequelize } = require("sequelize");
+// require("./database/connection");
+// const { Sequelize } = require("sequelize");
 
 
 
@@ -38,7 +38,7 @@ app.listen(port, ()=>{
 
 
 
-db.sequelize.sync({ force: true }).then(() => {
-    console.log("Drop and re-sync db.");
-  });
+// db.sequelize.sync({ force: true }).then(() => {
+//     console.log("Drop and re-sync db.");
+//   });
 
