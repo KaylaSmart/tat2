@@ -56,3 +56,9 @@
 
     });
   }
+const update = document.querySelectorAll('update');
+
+  window.onLoad = () => {
+    
+    update.classList.add('active')
+  }

@@ -797,10 +797,10 @@ li{
   font-family: "poppins";
   font-weight: 600;
   letter-spacing:.3rem ;
-  height:3%;
+  height:5%;
   color:#1DA69D;
   background: black;
-  margin: 0;
+  /* margin-bottom: 10px; */
 
 }
 
