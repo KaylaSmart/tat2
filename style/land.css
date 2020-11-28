@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400, 700;1,700&family=Raleway&display=swap');
+
+body{
+    background-color: #ffffff;
+    color:#1B1C1E;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase;
+    cursor: crosshair;
+    font-size: 20px;
+    width: 100vw;
+  
+}
+nav{
+    position: fixed;
+    background-color: transparent;
+    z-index: 5;
+    
+}
+
+nav img{
+    max-width: 40px;
+    max-height: 60px;
+}
+
+a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: #ffffff;
+    font-style: italic;
+}
+p{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    padding: 1% 2%;
+    border: 2px solid #1B1C1E;
+    border-radius: 90px;
+    font-size: 1rem;
+    background-color: #020202;
+    margin:auto 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ffffff;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #020202;
+    border: 1px solid #020202;
+}
+
+.nv{
+    box-shadow: none;
+
+}
+#howitworks{
+    background-color: #1B1C1E;
+    color: #ffffff;
+   
+}
+
+
+.clients hr{
+    width: 100vw;
+    border-top: 1px solid rgba(255, 255, 255, 0.89);
+}
+
+#howitworks p{
+    justify-self: center;
+    align-self: center;
+    font-size: 22px;
+    font-weight: 100;
+    color: #ffffffd7;
+}
+
+#gal{
+    object-fit: cover;
+    object-position: 30% 50%;
+}
+
+.galbtn{
+    font-size: 3rem;
+    box-shadow: 0px 17px 24px rgba(0, 0, 0, 0.25);
+}
+
+.galbtn:hover{
+    background-color: #020202;
+    color: #ffffff;
+}
+
+
+
+.epic{
+    box-shadow: 9px 7px 34px rgba(0, 0, 0, 0.25);
+}
+.how{
+    padding: 0 20px;
+    height: 100vh;
+    width:100vw ;
+}
+#gal img{
+    max-width: 100%;
+    max-height: 15%;
+    object-fit: cover;
+    object-position: 30% 50%;
+}
+
+.homegal{
+    height: 100vh;
+    width: 100vw;
+    background: url("pexels-vova-krasilnikov-2726161.jpg") fixed center no-repeat;
+    background-size:cover ;
+
+}
+
+.homegal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homegal button{
+    background-color: #f5f5f5;  
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px 40px; 
+    position: absolute; 
+    border-radius: 0%;
+  
+    color: #000;
+    border: none;
+    font-size: 22px;
+    letter-spacing: 10px;
+    font-style: italic;
+  
+}
+
+.card{
+    /* height: 100%; */
+    padding: 25% 0%;
+    background-color: #020202;
+    box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.25);
+    
+}
+.card-title{
+    color: #f5f5f5;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.clients{
+    padding-top: 5%;
+    background-color:#020202 ;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+.clientlist{
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    animation: 15s infslide infinite 1s ;
+}
+.clientlist img{
+    height: 200px;
+    padding: 5%;
+    opacity: 60%;
+}
+li{
+    list-style: none;
+     margin-bottom: 10%;
+}
+.dropNav li a{
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+footer{
+    margin-top: 30%;
+    background: #020202;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: .8rem;
+    color:rgba(255, 255, 255, 0.603);
+    height: 50vh;
+   letter-spacing: 2px;
+   bottom: 0;
+
+}
+
+input{
+    color: #ffffff;
+    
+    border: 1px solid transparent;
+    position: absolute;
+    width: 70%;
+    height: 26px;
+    background: #080808;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+
+
+
+
+.booking h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 10%;
+}
+
+
+
+.slidein{
+    animation: slideRight 2s ease forwards 0.3;
+
+}
+
+.contactus{
+    animation: 4s slidein  0.1s;
+    opacity: 50%;
+    height: 50px;
+}
+
+
+
+@keyframes infslide{
+    from{
+        left:100%;
+    }  
+    to {
+      left: -140%;
+   
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      
+    }
+  
+    to {
+      margin-left: 1%;
+   
+    }
+  }
+
+@media(max-width:600px){
+    
+    footer{
+   font-size: .7rem;
+    
+    }
+
+ 
+}
+
+.dropNav{
+    z-index: 100;
+    background-color: #020202;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+    padding: 5px;
+}
+
+.dropNav a{
+    color: #ffffff;
+}
+
+.moved{
+    background-color: #ffffff;
+    color:black;
+    box-shadow: 9px 7px 34px rgba(0, 0, 0, 0.199);
+}
+.moved a{
+    font-size: 10px;
+    color:black;
+}
+
+@media(max-width:767px){
+.card{
+    background-color: #020202;
+    /* height: 100%; */
+    padding: 5% 0%;
+    margin-top: 2%;
+    box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  
+}
+
+
+/* @keyframes slideRight{
+    0%{
+        opacity: 0%;
+        transform: translateY(70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+} */
+}

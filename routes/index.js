@@ -5,7 +5,7 @@ const forms = require('../controllers/controllers');
 
 //index+
 router.get('/', function(req, res) {
-    res.render('hometwo');
+    res.render('new');
 });
 
 
