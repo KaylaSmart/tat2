@@ -18,6 +18,19 @@ const roll = ["/roll/allef-vinicius-8qrmkqnQJIU-unsplash.jpg",
             "/roll/tereza-ruba-Ep5_-uw0B3I-unsplash.jpg"];
 
 
+
+            var docWidth = document.documentElement.offsetWidth;
+
+            [].forEach.call(
+              document.querySelectorAll('*'),
+              function(el) {
+                if (el.offsetWidth > docWidth) {
+                  console.log(el);
+                }
+              }
+            );
+
+
 function myFunction(x) {
   x.classList.toggle("change");
  
