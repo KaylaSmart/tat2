@@ -121,7 +121,7 @@ button:hover{
 .homegal{
     height: 100vh;
     width: 100vw;
-    background: url("pexels-vova-krasilnikov-2726161.jpg") fixed center no-repeat;
+    background: url("/images/pexels-vova-krasilnikov-2726161.jpg") fixed center no-repeat;
     background-size:cover ;
 
 }
