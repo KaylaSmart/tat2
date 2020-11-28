@@ -8,7 +8,7 @@ body{
     cursor: crosshair;
     font-size: 20px;
     width: 100vw;
-  
+    overflow-x: hidden;
 }
 nav{
     position: fixed;
