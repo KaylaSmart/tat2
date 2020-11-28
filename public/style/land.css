@@ -325,6 +325,24 @@ input{
     color:black;
 }
 
+/* width */
+
+  /* Track */
+  /* ::-webkit-scrollbar-track {
+    background: #020202;
+  } */
+  
+  /* Handle */
+  /* ::-webkit-scrollbar-thumb {
+    background: rgb(3, 3, 3);
+  } */
+  
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: rgb(12, 12, 12);
+  }  */
+
+
 @media(max-width:767px){
     body{
         width: 100vw;
