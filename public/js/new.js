@@ -19,17 +19,19 @@ const roll = ["/roll/allef-vinicius-8qrmkqnQJIU-unsplash.jpg",
 
 
 
-            var docWidth = document.documentElement.offsetWidth;
+//             var docWidth = document.documentElement.offsetWidth;
 
-            [].forEach.call(
-              document.querySelectorAll('*'),
-              function(el) {
-                if (el.offsetWidth > docWidth) {
-                  console.log(el);
-                }
-              }
-            );
-
+//             [].forEach.call(
+//               document.querySelectorAll('*'),
+//               function(el) {
+//                   console.log(el.offsetWidth)
+//                 if (el.offsetWidth > docWidth) {
+//                   console.log(el);
+                 
+//                 }
+//               }
+//             );
+//  console.log(docWidth)
 
 function myFunction(x) {
   x.classList.toggle("change");

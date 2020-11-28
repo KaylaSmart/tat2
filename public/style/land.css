@@ -7,7 +7,6 @@ body{
     text-transform: uppercase;
     cursor: crosshair;
     font-size: 20px;
-   
     overflow-x: hidden;
  
 }
@@ -103,8 +102,6 @@ button:hover{
     color: #ffffff;
 }
 
-
-
 .epic{
     box-shadow: 9px 7px 34px rgba(0, 0, 0, 0.25);
 }
@@ -199,7 +196,7 @@ button:hover{
     display: -webkit-flex;
     flex-wrap: nowrap;
     overflow-y: scroll;
-    animation: 15s infslide infinite 1s ;
+    /* animation: 15s infslide infinite 1s ; */
 }
 .clientlist img{
     height: 200px;
@@ -254,19 +251,19 @@ input{
 
 
 
-.slidein{
+/* .slidein{
     animation: slideRight 2s ease forwards 0.3;
 
-}
+} */
 
 .contactus{
-    animation: 4s slidein  0.1s;
+    /* animation: 4s slidein  0.1s; */
     opacity: 50%;
     height: 50px;
 }
 
 
-
+/* 
 @keyframes infslide{
     from{
         left:100%;
@@ -275,9 +272,9 @@ input{
       left: -140%;
    
     }
-}
+} */
 
-@keyframes slidein {
+/* @keyframes slidein {
     from {
       margin-left: 100%;
       
@@ -287,7 +284,7 @@ input{
       margin-left: 1%;
    
     }
-  }
+  } */
 
 @media(max-width:600px){
     
@@ -335,13 +332,11 @@ input{
     margin-top: 2%;
     box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.25);
 }
-
+}
 
 @media screen and (max-height: 450px) {
 
-   .spn{
-       max-width: 100px;
-   }
+ 
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
@@ -351,15 +346,18 @@ input{
   
 }
 
+@media(max-width:360px){
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+   
+.card{
+    background-color: #020202;
+    /* height: 100%; */
+    padding: 5% 0%;
+    margin-top: 2%;
+    box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.25);
+}
 
-/* @keyframes slideRight{
-    0%{
-        opacity: 0%;
-        transform: translateY(70%);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0%);
-    }
-} */
 }
