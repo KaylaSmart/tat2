@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400, 700;1,700&family=Raleway&display=swap');
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: #ffffff;
     color:#1B1C1E;
@@ -7,7 +11,7 @@ body{
     text-transform: uppercase;
     cursor: crosshair;
     font-size: 20px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
  
 }
 nav{
@@ -62,6 +66,7 @@ button:hover{
     color: #020202;
     border: 1px solid #020202;
 }
+
 
 .nv{
     box-shadow: none;
