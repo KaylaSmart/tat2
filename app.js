@@ -1,7 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const app = express();
-const db = require("./models/dex");
+// const db = require("./oldfiles/models/dex");
 const bodyParser= require('body-parser');
 const methodOverride = require('method-override');
 const logger = require('morgan');

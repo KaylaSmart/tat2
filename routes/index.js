@@ -9,20 +9,20 @@ router.get('/', function(req, res) {
 });
 
 
-router.get('/about', function(req, res) {
-    res.render('about');
-});
+// router.get('/about', function(req, res) {
+//     res.render('about');
+// });
 
 
-router.get('/contact', function(req, res) {
-    res.render('contact');
-});
+// router.get('/contact', function(req, res) {
+//     res.render('contact');
+// });
 
-router.get('/gallery', function(req, res) {
-    res.render('gallery');
-});
+// router.get('/gallery', function(req, res) {
+//     res.render('gallery');
+// });
 
-router.post('/contact', forms.create);
+// router.post('/contact', forms.create);
 
 
 module.exports = router; 
