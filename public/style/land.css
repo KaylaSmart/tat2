@@ -637,3 +637,24 @@ body{
         width: 95vw;
     }
 }
+
+
+.open h3{
+    animation: fadein 2s; 
+}
+.open p{
+    animation: fadein 2.5s; 
+}
+
+.open button{
+    animation: fadein 3s; 
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

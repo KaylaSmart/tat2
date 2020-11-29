@@ -18,9 +18,9 @@ router.get('/', function(req, res) {
 //     res.render('contact');
 // });
 
-// router.get('/gallery', function(req, res) {
-//     res.render('gallery');
-// });
+router.get('/gallery', function(req, res) {
+    res.render('gallery');
+});
 
 // router.post('/contact', forms.create);
 

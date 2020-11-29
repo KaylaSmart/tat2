@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400, 700;1,700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body{
+    background-color: #020202;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: uppercase;
+    cursor: crosshair;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    position: fixed;
+    background-color: black;
+    z-index: 5;
+    
+}
+
+nav img{
+    max-width: 40px;
+    max-height: 60px;
+}
+
+a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#wlogo{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.container-fluid{
+    
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+/* .car{
+    padding-top: 20% !important;
+} */
+.car img{
+    width: 100%;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-thumbnail{
+    background-color: transparent;
+    border: none;
+}
+
+.vertical .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel.vertical .carousel-item {
+     -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+     -ms-transition: 0.6s ease-in-out top;
+     -o-transition: 0.6s ease-in-out top;
+     transition: 0.6s ease-in-out top;
+  }
+  
+  .carousel.vertical .active {
+     top: 0;
+  }
+  
+  .carousel.vertical .next {
+     top: 400px;
+  }
+  
+  .carousel.vertical .prev {
+     top: -400px;
+  }
+  
+  .carousel.vertical .next.left,
+  .carousel.vertical .prev.right {
+     top: 0;
+  }
+  
+  .carousel.vertical .active.left {
+     top: -400px;
+  }
+  
+  .carousel.vertical .active.right {
+     top: 400px;
+  }
+  
+  .carousel.vertical .item {
+     left: 0;
+  }
+  
+
+
+  .dropNav{
+    z-index: 100;
+    background-color: #020202;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+    padding: 5px;
+}
+
+.dropNav a{
+    color: #ffffff;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 5px;
+    background-color: rgb(247, 243, 243);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  li{
+    list-style: none;
+     margin-bottom: 10%;
+}
+.dropNav li a{
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
