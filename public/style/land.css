@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400, 700;1,700&family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 html{
     overflow-x: hidden;
-}
 
+}
 body{
     background-color: #ffffff;
     color:#1B1C1E;
@@ -11,14 +11,14 @@ body{
     text-transform: uppercase;
     cursor: crosshair;
     font-size: 20px;
-    overflow-x: hidden !important;
- 
+    width: 100vw;
+    overflow-x: hidden;
+  
 }
 nav{
     position: fixed;
     background-color: transparent;
     z-index: 5;
-    max-width: 100vw;
     
 }
 
@@ -42,6 +42,75 @@ p{
     font-weight: bold;
 }
 
+.aware{    height: 100vh;
+    color:#ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.aware hr{
+
+    width: 100vw;
+    background-color: white;
+ 
+    padding-left: 5%;
+}
+
+.awlist{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.thru img{
+    position: absolute;
+    top:0;
+  
+}
+
+.over{
+    position: absolute;
+    z-index: 900;
+}
+
+.camera{
+    position: absolute;
+    height: 30%;
+    margin-top: 20%;
+    right: 50px;
+    opacity: 80%;
+}
+
+.back img{
+    height: 10%;
+
+}
+
+.brand{
+    margin-top: 2%;
+}
+
+@media(min-width:600px) {
+    .brand{
+        margin-top: 50%;
+    }
+}
+
+@media(min-width:1160px) {
+    .brand{
+        margin-top: 30%;
+    }
+}
+
+
+.vid{
+    background-color: #020202;
+}
+video{
+    height: 65%;
+    width: 100vw;
+}
 h3{
     font-size: 32px;
     font-weight: bold;
@@ -66,7 +135,6 @@ button:hover{
     color: #020202;
     border: 1px solid #020202;
 }
-
 
 .nv{
     box-shadow: none;
@@ -107,11 +175,13 @@ button:hover{
     color: #ffffff;
 }
 
+
+
 .epic{
     box-shadow: 9px 7px 34px rgba(0, 0, 0, 0.25);
 }
 .how{
-    padding: 0 20px;
+    /* padding: 0 20px; */
     height: 100vh;
     width:100vw ;
 }
@@ -201,13 +271,14 @@ button:hover{
     display: -webkit-flex;
     flex-wrap: nowrap;
     overflow-y: scroll;
-    /* animation: 15s infslide infinite 1s ; */
+  
 }
 .clientlist img{
     height: 200px;
     padding: 5%;
     opacity: 60%;
 }
+
 li{
     list-style: none;
      margin-bottom: 10%;
@@ -244,7 +315,10 @@ input{
 }
 
 
-
+.aware{
+    background-color: #020202;
+    height: 100vh;
+}
 
 
 .booking h1{
@@ -256,40 +330,16 @@ input{
 
 
 
-/* .slidein{
-    animation: slideRight 2s ease forwards 0.3;
 
-} */
 
 .contactus{
-    /* animation: 4s slidein  0.1s; */
+
     opacity: 50%;
     height: 50px;
 }
 
 
-/* 
-@keyframes infslide{
-    from{
-        left:100%;
-    }  
-    to {
-      left: -140%;
-   
-    }
-} */
 
-/* @keyframes slidein {
-    from {
-      margin-left: 100%;
-      
-    }
-  
-    to {
-      margin-left: 1%;
-   
-    }
-  } */
 
 @media(max-width:600px){
     
@@ -325,29 +375,7 @@ input{
     color:black;
 }
 
-/* width */
-
-  /* Track */
-  /* ::-webkit-scrollbar-track {
-    background: #020202;
-  } */
-  
-  /* Handle */
-  /* ::-webkit-scrollbar-thumb {
-    background: rgb(3, 3, 3);
-  } */
-  
-  /* Handle on hover */
-  /* ::-webkit-scrollbar-thumb:hover {
-    background: rgb(12, 12, 12);
-  }  */
-
-
 @media(max-width:767px){
-    body{
-        width: 100vw;
-        overflow-x: hidden;
-    }
 .card{
     background-color: #020202;
     /* height: 100%; */
@@ -357,30 +385,65 @@ input{
 }
 }
 
-@media screen and (max-height: 450px) {
 
- 
+@media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px;
     }
-  
-}
-
-@media(max-width:360px){
-    body{
-        width: 100vw;
-        overflow-x: hidden;
+    .brand{
+        margin-top: 90%;
     }
-   
-.card{
-    background-color: #020202;
-    /* height: 100%; */
-    padding: 5% 0%;
-    margin-top: 2%;
-    box-shadow: 9px 10px 8px rgba(0, 0, 0, 0.25);
 }
 
+.fr{
+    height: 1px;
+    width: 100vw;
+    background-color: white;
+ 
+    padding-left: 5%;
+}
+
+@media screen and (max-width:800px){
+ 
+    
+    .camera{
+        position: absolute;
+        height: 20%;
+        margin-top: 80%;
+        opacity: 80%;
+        margin-left:5px ;
+        display: none;
+    }
+
+    .brand{
+        margin-top: 250px;
+    }
+    .how{
+        height: 60vh;
+    }
+    .learn{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:1230px){
+body{
+    overflow-y: hidden;
+}
+}
+
+
+@media screen and (max-width:600px){
+    .how{
+        height: 80vh;
+    }
+    .awlist{
+        font-size: 14px;
+    }
+    .over{
+        width: 95vw;
+    }
 }
