@@ -5,6 +5,8 @@ const navMenu = document.querySelector('.dropNav');
 const nav =  document.querySelector('nav');
 const navLinks = document.querySelectorAll('a')
 const mainImg = document.querySelector('.mainImg');
+const loader = document.querySelector('.openingdiv');
+const full = document.querySelector('.full');
 
 const roll = ["/roll/allef-vinicius-8qrmkqnQJIU-unsplash.jpg", 
             "/roll/pexels-nappy-1771383.jpg",
@@ -32,6 +34,25 @@ const roll = ["/roll/allef-vinicius-8qrmkqnQJIU-unsplash.jpg",
 //               }
 //             );
 //  console.log(docWidth)
+
+
+function hideLoader(){
+    setTimeout(()=>{
+        loader.classList.add("d-none")
+        full.classList.remove("d-none")
+    }, 5000)
+}
+
+
+function showHome(){
+    setTimeout(()=>{
+      
+        full.classList.remove("d-none")
+    }, 7000)
+}
+
+
+
 
 function myFunction(x) {
   x.classList.toggle("change");
@@ -77,3 +98,5 @@ function myFunction(x) {
 //     mainImg.src = roll[i];
 // }} ,8000)
 
+hideLoader();
+showHome();
