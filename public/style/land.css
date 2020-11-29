@@ -401,7 +401,7 @@ button:hover{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 5px 40px; 
-    position: absolute; 
+    /* position: absolute;  */
     border-radius: 0%;
   
     color: #000;
@@ -492,6 +492,14 @@ footer{
 
 }
 
+
+footer a{
+    font-size: .8rem;
+    color:rgba(255, 255, 255, 0.603);
+   letter-spacing: 2px;
+ 
+}
+
 input{
     color: #ffffff;
     
@@ -538,7 +546,10 @@ input{
     
     }
 
- 
+    footer a{
+        font-size: .7rem;
+        color:rgba(255, 255, 255, 0.603);
+         }
 }
 
 .dropNav{
