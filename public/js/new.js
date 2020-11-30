@@ -21,20 +21,20 @@ const roll = ["/roll/allef-vinicius-8qrmkqnQJIU-unsplash.jpg",
 
 
 
-//             var docWidth = document.documentElement.offsetWidth;
-
+//             var docHeight = document.documentElement.offsetHeight;
+// function findOverFlow(){
 //             [].forEach.call(
 //               document.querySelectorAll('*'),
 //               function(el) {
-//                   console.log(el.offsetWidth)
-//                 if (el.offsetWidth > docWidth) {
+//                   console.log(el.offsetHeight)
+//                 if (el.offsetHeight > docHeight) {
 //                   console.log(el);
                  
 //                 }
 //               }
 //             );
-//  console.log(docWidth)
-
+//  console.log(docHeight)
+//             }
 
 function hideLoader(){
     setTimeout(()=>{
@@ -97,6 +97,7 @@ function myFunction(x) {
 //  delayedPicChange(() => {for(let i= 1; i< roll.length; i++){
 //     mainImg.src = roll[i];
 // }} ,8000)
+(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
 
-hideLoader();
+ hideLoader();
 showHome();

@@ -32,15 +32,27 @@ body{
     align-content:center;
     justify-content:center;
     z-index: 900000000;
+   
   
 }
 #logo{
+position: absolute;
+    transform: translate(-30%, -25%);
+}
 
+
+
+
+#brush {
+    position: absolute;
+    top:50%;
+    left:40%;
     transform: translate(-50%, -25%);
-}
-#brush{
-    transform: translate(-50%, -25%);
-}
+    animation: fill 0.5s ease forwards 5s;
+  }
+  #brush{
+    transform: translate(-20%, -25%);
+}  
 
 @media (max-width:800px){
     #logo{
@@ -53,20 +65,10 @@ body{
     #brush{
         margin: 0 70px;
         width: 60%;
-        left:20%;
-        /* transform: translate(-50%, -25%); */
+        left:30%;
+        transform: translate(-50%, -50%);
     }
 }
-
-#brush {
-    position: absolute;
-    top:50%;
-    left:40%;
-    transform: translate(-50%, -25%);
-    animation: fill 0.5s ease forwards 5s;
-  }
-  
-
 #logo {
     position: absolute;
     top:50%;
@@ -278,20 +280,20 @@ p{
 }
 
 .brand{
-    margin-top: 2%;
+    margin-top: 12%;
 }
-
-@media(min-width:600px) {
-    .brand{
-        margin-top: 50%;
-    }
-}
-
-@media(min-width:1160px) {
+/* @media(min-width:1160px) {
     .brand{
         margin-top: 30%;
     }
+} */
+@media(min-width:600px) {
+    .brand{
+        margin-top: 80%;
+    }
 }
+
+
 
 
 .vid{
@@ -409,7 +411,7 @@ button:hover{
     font-size: 22px;
     letter-spacing: 10px;
     font-style: italic;
-  
+    -webkit-font-smoothing:antialiased;
 }
 
 .card{
@@ -543,12 +545,16 @@ input{
     
     footer{
    font-size: .7rem;
+   padding-bottom: 10%;
     
     }
 
     footer a{
         font-size: .7rem;
         color:rgba(255, 255, 255, 0.603);
+         }
+         .bb{
+             font-size: .5rem;
          }
 }
 
@@ -620,7 +626,7 @@ input{
     }
 
     .brand{
-        margin-top: 250px;
+        margin-top: 20%;
     }
     .how{
         height: 60vh;
@@ -630,16 +636,26 @@ input{
     }
 }
 
-@media screen and (max-width:1230px){
+@media screen and (max-width:1273px){
 body{
     overflow-y: hidden;
 }
 }
 
+@media screen and (max-width:480px){
+    .brand{
+        margin-top: 60%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 @media screen and (max-width:600px){
     .how{
-        height: 80vh;
+        height: 100vh;
     }
     .awlist{
         font-size: 14px;
@@ -669,3 +685,20 @@ body{
         opacity: 1;
     }
 }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+  .homegal {
+   background-attachment:scroll !important;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+    
+  }
+
+  .back img{
+    height: 20%;
+
+}
+
+  }
