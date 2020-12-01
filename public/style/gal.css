@@ -34,6 +34,12 @@ a{
     letter-spacing: 2px;
 }
 
+a:hover{
+    color: #ffffff;
+    font-style: italic;
+}
+
+
 #wlogo{
     width: 20px;
     height: 20px;

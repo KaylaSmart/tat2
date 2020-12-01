@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400, 700;1,700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1em;
+    cursor: crosshair;
+    color:white;
+    background-color: #121111;
+    -webkit-font-smoothing:auto;
+    text-transform: uppercase;
+}
+
+.about img{
+    position: absolute;
+    max-width: 78%;
+    transform: translate(20%, -10%);
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.about{
+
+    color: white;
+    font-style: italic;
+  
+    line-height: 35%;
+
+}
+.about h1{
+    font-size: 3rem;
+    letter-spacing: 10px;
+    line-height: 4rem;
+}
+
+hr{
+        border: 1px solid white;
+}
+
+.line_box {
+    position: relative;
+    z-index: 5;
+}
+.line_box {
+    border-bottom: 1px solid #ddd;
+}
+
+video{
+    max-width: 95%;
+    margin-left: 5%;
+}
+p{
+    font-style: italic;
+}
+
+.name{
+    max-width: 65%;
+}
+
+.lk{
+    max-width: 30%;
+}
+
+.flip{
+    transform: scaleX(-1);
+}
+
+
+.moved{
+    background-color: #ffffff;
+    color:black;
+    box-shadow: 9px 7px 34px rgba(0, 0, 0, 0.199);
+}
+.moved a{
+    font-size: 10px;
+    color:black;
+}
+
+.aa{
+    height:30% !important;
+}

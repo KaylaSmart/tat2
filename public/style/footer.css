@@ -1,0 +1,58 @@
+footer{
+    margin-top: 30%;
+    background: #020202;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: .8rem;
+    color:rgba(255, 255, 255, 0.603);
+    height: 50vh;
+    letter-spacing: 2px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer a{
+    font-size: .8rem;
+    color:rgba(255, 255, 255, 0.603);
+   letter-spacing: 2px;
+ 
+}
+
+
+input{
+    color: #ffffff;
+    
+    border: 1px solid transparent;
+    position: absolute;
+    width: 70%;
+    height: 26px;
+    background: #080808;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+@media(max-width:600px){
+    
+    footer{
+   font-size: .7rem;
+   padding-bottom: 10%;
+    
+    }
+
+    footer a{
+        font-size: .7rem;
+        color:rgba(255, 255, 255, 0.603);
+         }
+         .bb{
+             font-size: .5rem;
+         }
+}
+
+
+
+.contactus{
+
+    opacity: 50%;
+    height: 50px;
+}

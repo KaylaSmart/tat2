@@ -16,225 +16,12 @@ body{
   
 }
 
-
-
-
-
-.ame{
-    display: relative;
-}
-.openingdiv{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    align-content:center;
-    justify-content:center;
-    z-index: 900000000;
-   
-  
-}
-#logo{
-position: absolute;
-    transform: translate(-30%, -25%);
-}
-
-
-
-
-#brush {
-    position: absolute;
-    top:50%;
-    left:40%;
-    transform: translate(-50%, -25%);
-    animation: fill 0.5s ease forwards 5s;
-  }
-  #brush{
-    transform: translate(-20%, -25%);
-}  
-
-@media (max-width:800px){
-    #logo{
-        margin: 0 0 70px 40px;
-        width: 70%;
-        left:50%;
-        transform: translate(-50%, -50%);
-       
-    }
-    #brush{
-        margin: 0 70px;
-        width: 60%;
-        left:30%;
-        transform: translate(-50%, -50%);
-    }
-}
-#logo {
-    position: absolute;
-    top:50%;
-    left:40%;
-    transform: translate (-50%, -20%);
-    animation: fill 0.5s ease forwards 5s;
-  }
-  
-  #logo path:nth-child(1){
-    stroke-dasharray:339.0343322753906;
-    stroke-dashoffset:339.0343322753906;
-    animation: line-anim 2s ease forwards;
-  }
-  
-  #logo path:nth-child(2){
-      stroke-dasharray:366.0449523925781;
-      stroke-dashoffset:366.0449523925781;
-      animation: line-anim 2s ease forwards 0.3s;
-  
-  
-  }
-  #logo path:nth-child(3){
-      stroke-dasharray:248.09988403320312;
-      stroke-dashoffset:248.09988403320312;
-      animation: line-anim 2s ease forwards 0.6s;
-  
-  
-  }#logo path:nth-child(4){
-      stroke-dasharray:329.2756042480469;
-      stroke-dashoffset:329.2756042480469;
-      animation: line-anim 2s ease forwards 0.9s;
-  
-    
-  }#logo path:nth-child(5){
-      stroke-dasharray:224.447998046875;
-      stroke-dashoffset:224.447998046875;
-      animation: line-anim 2s ease forwards 1.2s;
-  
-  }#logo path:nth-child(6){
-      stroke-dasharray:248.09983825683594;
-      stroke-dashoffset:248.09983825683594;
-      animation: line-anim 2s ease forwards 1.5s;
-  
-  }#logo path:nth-child(7){
-      stroke-dasharray:198.1439971923828;
-      stroke-dashoffset:198.1439971923828;
-      animation: line-anim 2s ease forwards 1.8s;
-  
-  
-    
-  }#logo path:nth-child(8){
-      stroke-dasharray:309.3120422363281;
-      stroke-dashoffset:309.3120422363281;
-      animation: line-anim 2s ease forwards 2.1s;
-  
-  
-  }#logo path:nth-child(9){
-      stroke-dasharray:329.2759704589844;
-      stroke-dashoffset:329.2759704589844;
-      animation: line-anim 2s ease forwards 2.4s;
-  
-    
-  }#logo path:nth-child(10){
-  
-      stroke-dasharray:224.44778442382812;
-      stroke-dashoffset:224.44778442382812;
-      animation: line-anim 2s ease forwards 2.7s;
-  
-      
-      
-  }#logo path:nth-child(11){
-      stroke-dasharray:326.8614501953125;
-      stroke-dashoffset:326.8614501953125;
-      animation: line-anim 2s ease forwards 3.0s;
-  
-    
-  }#logo path:nth-child(12){
-      stroke-dasharray:224.44802856445312;
-      stroke-dashoffset:224.44802856445312;
-      animation: line-anim 3s ease forwards 3.3s;
-  
-  
-    
-  }#logo path:nth-child(13){
-    
-      stroke-dasharray:224.44802856445312;
-      stroke-dashoffset:224.44802856445312;
-      animation: line-anim 2s ease forwards 3.6s;
-  
-  
-  }
-  #logo path:nth-child(14){
-      stroke-dasharray:377.3009948730469;
-      stroke-dashoffset:377.3009948730469;
-      animation: line-anim 2s ease forwards 3.9s;
-  
-  }
-  #logo path:nth-child(15){
-      stroke-dasharray:377.3011169433594;
-      stroke-dashoffset:377.3011169433594;
-      animation: line-anim 2s ease forwards 4.1s;
-  
-  
-  }
-  
-  
-  #brush{
-      position: absolute;
-      top:15%;
-      left:30%;
-      transform: translate (-50%, -50%);
-      animation: fill 0.5s ease forwards 5s; 
-      height:25%;
-    }
-    
-    #brush path:nth-child(1){
-        stroke-dasharray:4505.10693359375;
-        stroke-dashoffset:4505.10693359375;
-        animation: line-anim 9s ease forwards 0.2s;
-    
-    }
-  
-  @keyframes line-anim{
-    to{
-      stroke-dashoffset: 0;
-    }
-  }
-   @keyframes fill{
-      from{
-          fill: transparent;
-      }
-      to{
-        
-          fill: white;
-      }
-    } 
-
-
-nav{
-    position: fixed;
-    background-color: transparent;
-    z-index: 5;
-    
-}
-
-nav img{
-    max-width: 40px;
-    max-height: 60px;
-}
-
-a{
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-a:hover{
-    color: #ffffff;
-    font-style: italic;
-}
 p{
     font-weight: bold;
 }
 
-.aware{    height: 100vh;
+.aware{    
+    height: 100vh;
     color:#ffffff;
     letter-spacing: 2px;
     font-size: 20px;
@@ -261,10 +48,10 @@ p{
   
 }
 
-.over{
+/* .over{
     position: absolute;
     z-index: 900;
-}
+} */
 
 .camera{
     position: absolute;
@@ -275,36 +62,27 @@ p{
 }
 
 .back img{
-    height: 10%;
+    max-width: 100%;
 
 }
 
 .brand{
-    margin-top: 12%;
+    /* margin-top: 12%; */
 }
-/* @media(min-width:1160px) {
+@media(min-width:1160px) {
     .brand{
-        margin-top: 30%;
+        margin-top: 5%;
     }
-} */
-@media(min-width:600px) {
+}
+/* @media(min-width:600px) {
     .brand{
         margin-top: 80%;
     }
-}
+} */
 
 
-
-
-.vid{
-    background-color: #020202;
-}
-video{
-    height: 65%;
-    width: 100vw;
-}
-h3{
-    font-size: 32px;
+h2{
+    /* font-size: 32px; */
     font-weight: bold;
     font-style: italic;
 }
@@ -374,7 +152,7 @@ button:hover{
 }
 .how{
     /* padding: 0 20px; */
-    height: 100vh;
+    height: 80vh;
     width:100vw ;
 }
 #gal img{
@@ -438,25 +216,7 @@ button:hover{
 
 }
 
-.bar1, .bar2, .bar3 {
-    width: 25px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
+
 
 
 .clientlist{
@@ -475,44 +235,10 @@ li{
     list-style: none;
      margin-bottom: 10%;
 }
-.dropNav li a{
-    font-size: 52px;
-    font-style: italic;
-    font-weight: 700;
-    letter-spacing: 5px;
-}
-
-footer{
-    margin-top: 30%;
-    background: #020202;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: .8rem;
-    color:rgba(255, 255, 255, 0.603);
-    height: 50vh;
-   letter-spacing: 2px;
-   bottom: 0;
-
-}
 
 
-footer a{
-    font-size: .8rem;
-    color:rgba(255, 255, 255, 0.603);
-   letter-spacing: 2px;
- 
-}
 
-input{
-    color: #ffffff;
-    
-    border: 1px solid transparent;
-    position: absolute;
-    width: 70%;
-    height: 26px;
-    background: #080808;
-    border-bottom: 1px solid #ffffff;
 
-}
 
 
 .aware{
@@ -529,48 +255,6 @@ input{
 }
 
 
-
-
-
-.contactus{
-
-    opacity: 50%;
-    height: 50px;
-}
-
-
-
-
-@media(max-width:600px){
-    
-    footer{
-   font-size: .7rem;
-   padding-bottom: 10%;
-    
-    }
-
-    footer a{
-        font-size: .7rem;
-        color:rgba(255, 255, 255, 0.603);
-         }
-         .bb{
-             font-size: .5rem;
-         }
-}
-
-.dropNav{
-    z-index: 100;
-    background-color: #020202;
-    color: #ffffff;
-    text-align: center;
-    height: 100%;
-    width: 100vw;
-    padding: 5px;
-}
-
-.dropNav a{
-    color: #ffffff;
-}
 
 .moved{
     background-color: #ffffff;
@@ -628,9 +312,9 @@ input{
     .brand{
         margin-top: 20%;
     }
-    .how{
+    /* .how{
         height: 60vh;
-    }
+    } */
     .learn{
         padding-bottom: 10px;
     }
@@ -646,17 +330,14 @@ body{
     .brand{
         margin-top: 60%;
     }
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
+   
 }
 
 
 @media screen and (max-width:600px){
-    .how{
+    /* .how{
         height: 100vh;
-    }
+    } */
     .awlist{
         font-size: 14px;
     }
@@ -696,9 +377,20 @@ body{
     
   }
 
-  .back img{
-    height: 20%;
 
-}
 
+
+  }
+
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
