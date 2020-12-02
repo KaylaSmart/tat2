@@ -26,6 +26,7 @@ p{
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: lighter;
+    position: relative;
 }
 
 .aware hr{
@@ -61,7 +62,11 @@ p{
     opacity: 80%;
 }
 
-.back img{
+.carousel-item{
+    max-width: 100%;
+}
+.back img {
+
     max-width: 100%;
 
 }
