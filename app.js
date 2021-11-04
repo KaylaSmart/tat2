@@ -16,7 +16,7 @@ const path = require('path');
 
 const indexRoutes = require("./routes/index");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3030;
 
 
 
@@ -33,7 +33,7 @@ app.use('/', indexRoutes );
 
 
 app.listen(port, ()=>{
-    console.log('app listening on port ......5000')
+    console.log(`app listening on port ......${port}`)
 });
 
 
