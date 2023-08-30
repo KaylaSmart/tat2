@@ -31,7 +31,7 @@
     "glob-parent": "^6.0.2",
     "hover.css": "^2.3.2",
     "method-override": "^3.0.0",
-    "mongoose": "^7.3.3",
+    "mongoose": "^7.5.0",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "mysql2": "^3.4.1",
